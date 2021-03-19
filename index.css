@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Add CSS styling here */
+body{
+	background-color:grey;
+}
+
+.name{
+	font-size: 50px;
+	color:whitesmoke;
+	background-color:black;
+}
+.toplinks{
+	display: flex;
+	background-color:peachpuff;
+}
+
+h2 {
+	font-size: 50px;
+	padding:10px;
+	text-align: center;
+}
+.myprojects {
+	text-align: center;
+}
+
+.flex-container {
+  display:flex;
+  flex-flow: row wrap;
+  height: 500px;
+  justify-content:center;
+  align-items:center;
+  }
+  
+p {
+  text-align: center;
+  font-size: 25px;
+  margin: 25px;
+}
+img{
+	width:300px
+}
+.flex-container2 {
+	display: flex;
+	flex-flow: row wrap;
+	height: 420px;
+	justify-content: space-between;
+}
+.flex-container2 img:hover{
+    border:10px double whitesmoke
+}
+.flex2{
+  display:flex;
+  padding: 90px;
+  flex-flow: row wrap;
+  height: 40px;
+  justify-content: space-between;
+}
+
+
+
+
+
