@@ -43,14 +43,17 @@ table {
 }
 
 /* Add CSS styling here */
+html{
+	font-size:62.5%;
+}
 body{
-	background-color:grey;
+	background-color:black;
 }
 
 .name{
 	font-size: 50px;
-	color:whitesmoke;
-	background-color:black;
+	color:black;
+	background-color:white;
 }
 .toplinks{
 	display: flex;
@@ -61,12 +64,13 @@ h2 {
 	font-size: 50px;
 	padding:10px;
 	text-align: center;
+	color: white;
 }
 .myprojects {
 	text-align: center;
 }
 
-.flex-container {
+.mainimage {
   display:flex;
   flex-flow: row wrap;
   height: 500px;
@@ -78,9 +82,10 @@ p {
   text-align: center;
   font-size: 25px;
   margin: 25px;
+  color:white;
 }
 img{
-	width:300px
+	width:300px;
 }
 .flex-container2 {
 	display: flex;
@@ -89,9 +94,9 @@ img{
 	justify-content: space-between;
 }
 .flex-container2 img:hover{
-    border:10px double whitesmoke
+    border:10px double peachpuff
 }
-.flex2{
+.searchme{
   display:flex;
   padding: 90px;
   flex-flow: row wrap;
@@ -99,7 +104,19 @@ img{
   justify-content: space-between;
 }
 
+/*Media Queries*/
+@media (max-width:800px){
+	body{
+		background-color:pink;
+	}
+}
 
+/*phone*/
+@media (max-width:500px){
+	body{
+		background-color: peachpuff;
+	}
 
+}
 
 
