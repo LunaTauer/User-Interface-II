@@ -60,7 +60,7 @@ h1{
 }
 .toplinks{
 	display: flex;
-	background-color:peachpuff;
+	background-color:lightpink;
 	justify-content:space-evenly ;
 }
 
@@ -98,7 +98,7 @@ img{
 	justify-content: space-between;
 }
 .flex-container2 img:hover{
-    border:10px double peachpuff
+    border:10px double lightpink;
 }
 .bottominfo{
   display:flex;
@@ -113,6 +113,7 @@ button{
 	height:50px;
 	border:none;
 	border-style:dotted;
+	background-color:white;
 	margin-top: 10px;
 	margin-bottom:10px;
 }
@@ -123,7 +124,22 @@ button{
 		background-color:pink;
 		font-style: oblique;
 	}
+	.flex-container2 img:hover{
+		border:10px dotted black;	
+	}
+	p{
+	background-color: white;
+	color:thistle;
+	font-size:40px;
+	}
+	.name{
+		font-size: 60px;
+	}
+	.toplinks{
+		background-color: black;
+	}
 }
+
 
 /*phone*/
 @media (max-width:500px){
@@ -131,6 +147,17 @@ button{
 		background-color: peachpuff;
 		font-style: normal;
 	}
+	.name{
+		font-size: 70px;
+	}
+	p{
+		background-color: white;
+		color:indianred;
+		font-size:50px;
+		}
+		.toplinks{
+			background-color:indianred;
+		}
 }
 
 
