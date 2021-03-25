@@ -55,9 +55,13 @@ body{
 	color:black;
 	background-color:white;
 }
+h1{
+	text-align: center;
+}
 .toplinks{
 	display: flex;
 	background-color:peachpuff;
+	justify-content:space-evenly ;
 }
 
 h2 {
@@ -96,18 +100,28 @@ img{
 .flex-container2 img:hover{
     border:10px double peachpuff
 }
-.searchme{
+.bottominfo{
   display:flex;
   padding: 90px;
-  flex-flow: row wrap;
+  margin:40px;
+  flex-flow:row;
   height: 40px;
   justify-content: space-between;
+}
+button{
+	width: 100px;
+	height:50px;
+	border:none;
+	border-style:dotted;
+	margin-top: 10px;
+	margin-bottom:10px;
 }
 
 /*Media Queries*/
 @media (max-width:800px){
 	body{
 		background-color:pink;
+		font-style: oblique;
 	}
 }
 
@@ -115,8 +129,8 @@ img{
 @media (max-width:500px){
 	body{
 		background-color: peachpuff;
+		font-style: normal;
 	}
-
 }
 
 
